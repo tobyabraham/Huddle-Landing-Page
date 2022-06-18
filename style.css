@@ -1,0 +1,111 @@
+body {
+    font-size: 18px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    background-color: hsl(193, 100%, 96%);
+    height: 500px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.main {
+    background: white;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.top-nav > button {
+    padding: 0 40px 0 40px;
+    border-radius: 20px;
+    border: none;
+    background: white;
+}
+
+.first-sect {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.first-sect > article {
+    margin-top: 70px;
+    padding-right: 100px;
+}
+
+.first-sect> article > button {
+    background: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 20px;
+    padding: 15px 50px 15px 50px;
+}
+
+.first-sect > img {
+    width: 35%;
+}
+
+.sect {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;   
+    height: 200px; 
+}
+
+.section-box {
+    border-radius: 20px;
+    border: solid 1px black;
+    padding: 50px;
+}
+
+.sect > article {
+    margin-top: 50px;
+    padding-right: 150px;
+    margin-left: 80px;
+}
+
+.sect > img {
+    margin-right: 80px;
+    width: 35%;
+}
+
+.sect-rev {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;   
+    height: 200px;
+}
+
+.sect-rev > img {
+    margin-left: 80px;
+}
+
+.sect-rev > article {
+    margin-top: 50px;
+    padding-left: 150px;
+    margin-right: 80px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: hsl(192, 100%, 9%);
+    padding: 30px
+}
+
+.footer > section {
+    flex: 33.3%;
+}
