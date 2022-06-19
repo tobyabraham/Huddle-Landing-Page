@@ -103,9 +103,34 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background: hsl(192, 100%, 9%);
-    padding: 30px
+    padding: 30px;
+    margin-top: 250px;
 }
 
 .footer > section {
     flex: 33.3%;
+    margin-top: 60px;
+}
+
+.small-box {
+    position: absolute;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: auto;
+    width: 800px;
+    margin: 140px auto 40px auto;
+    text-align: center;
+    z-index: 1;
+    margin-left: 15%;
+    background: white;
+}
+
+.small-box > h2 {
+}
+
+.small-box > button {
+    margin-bottom: 20px;
+    padding: 15px 50px 15px 50px;
+    border-radius: 20px;
+    background: hsl(322, 100%, 66%);
 }
