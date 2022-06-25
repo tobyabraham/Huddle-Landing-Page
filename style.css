@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
 body {
     font-size: 18px;
     margin: 0;
@@ -115,12 +119,14 @@ body {
         text-align: center;
         width: 100%;
         padding-bottom: 1rem;
+        color:hsl(192, 100%, 9%)
     }
 
     .sub-heading {
         margin: 0 auto;
         text-align: center;
         width: 90%;
+        color:hsl(192, 100%, 9%)
 
     }
 }
@@ -190,9 +196,9 @@ body {
     align-items: center;
     flex-direction: column;
     width: 50%;
-    padding: 2rem;
+    padding: 1.7rem;
     position: absolute;
-    top: -40%;
+    top: -30%;
     left: 25%;
     transform: translate(-50, -50);
 }
@@ -215,6 +221,9 @@ body {
     justify-content: space-between;
     width: 100%;
     padding: 10rem;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .footer-item {
@@ -222,10 +231,12 @@ body {
     flex-direction: column;
     /* justify-content: space-between; */
     text-align: left;
+    color: hsl(193, 100%, 96%)
+    ;
 }
 
 .flogo {
-    width: 60%;
+    width: 40%;
     padding-bottom: 2.5rem;
 }
 
@@ -261,6 +272,18 @@ body {
     border: 1px solid #fff;
 }
 
+.copyright {
+    font-size: 14px;
+    margin-top: 210px;
+}
+
+.flex-sub {
+    color: hsl(208, 11%, 55%)
+}
+
+.flex-head {
+    color:hsl(192, 100%, 9%)
+}
 
 @media (max-width: 880px) {
 
@@ -283,7 +306,7 @@ body {
     }
 
     .flogo {
-        width: 80%;
+        width: 40%;
     }
 
     .flexbox {
@@ -293,9 +316,9 @@ body {
         align-items: center;
         flex-direction: column;
         width: 80%;
-        padding: 2rem;
+        padding: 1rem;
         position: absolute;
-        top: -25%;
+        top: -10%;
         left: 10%;
         transform: translate(-50, -50);
     }
@@ -306,6 +329,10 @@ body {
 
     .fblock {
         padding: 1rem;
+    }
+    .copyright {
+        font-size: 14px;
+        margin-top: 80px;
     }
 }
 
@@ -331,6 +358,11 @@ body {
     .fbtn {
         margin: 0.5rem;
         padding: 1rem 3rem;
+    }
+
+    .copyright {
+        font-size: 14px;
+        margin-top: 80px;
     }
 }
 
